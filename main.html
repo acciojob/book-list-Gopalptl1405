@@ -7,6 +7,29 @@
 </head>
 
 <body>
+	<h1 align="center">MyBookList</h1>
+	<form method="post">
+		<div class="form-group">
+			 <label for="title">Title</label><br>
+			<input type="text" name="title" id="title" placeholder="Title"><br>
+			<label for="author">Author</label><br>
+			<input type="text" name="author" id="author" placeholder="Author"><br>
+			<label for="isbn">Isbn</label><br>
+			<input type="text" name="isbn" id="isbn" placeholder="Isbn"><br>
+		     <button type="submit" id="submit">Submit</button>
+		</div>
+	</form>
+	<table style="width:70%; heigth:70%;"class="table-striped">
+		<thead>
+			<th>title</th>
+			<th>Author</th>
+			<th>ISBN#</th>
+		</thead>
+		<tbody class="book-list">
+			<tr></tr>
+		</tbody>
+	</table>
+	
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
